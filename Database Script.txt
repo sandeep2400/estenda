@@ -1,12 +1,12 @@
 CREATE DATABASE estenda;
 
 CREATE TABLE IF NOT EXISTS  `membership` (
-	usr_id varchar(255) NOT NULL AUTO_INCREMENT,
+	usr_id int(5) NOT NULL AUTO_INCREMENT,
 	fname varchar(255) DEFAULT NULL,
 	lname varchar(255) DEFAULT NULL,
 	tel varchar(255) DEFAULT NULL,
 	email varchar(255) DEFAULT NULL,
 	pswd varchar(32) DEFAULT NULL,
-	PRIMARY KEY (session_id),
+	PRIMARY KEY (usr_id),
 	UNIQUE(email)
 );
