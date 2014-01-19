@@ -10,17 +10,17 @@ Angular is used to make the actual contact page more dynamic and realtime.
 ## Relevant Code: ##
 ### PHP ###
 1. Controllers
-* Signup - new accounts
-* Login - existing accounts
-* Contactlist - contact manager
+Signup - new accounts
+Login - existing accounts
+Contactlist - contact manager
 
 2. Models: 
-* Login-model - reads/writes to a single SQL table membership
+Login-model - reads/writes to a single SQL table membership
 
 3. Views: 
-* contactlist_view - Contact Manager
-* Login_view - login page
-* signup_view - New Account Sign up page
+contactlist_view - Contact Manager
+Login_view - login page
+signup_view - New Account Sign up page
 
 ### Javascript ###
 js/main.js - javascript code for the main page
@@ -29,7 +29,7 @@ js/main.js - javascript code for the main page
 application/css/style.css
 
 ### TO run the script, ###
-* download and unzip to a local apache installation, 
-* Run the database scripts in the file 'Database Script.txt'
-* Run localhost/estenda and you are good to go. 
-* Create new accounts and test. 
+download and unzip to a local apache installation, 
+Run the database scripts in the file 'Database Script.txt'
+Run localhost/estenda and you are good to go. 
+Create new accounts and test. 
